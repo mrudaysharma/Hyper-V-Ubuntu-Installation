@@ -5,9 +5,8 @@
 ## Activate Gedit 
   Error :  (gedit:1952): Gtk-WARNING **: 14:36:43.829: cannot open display: :10.0
   - sudo nano /etc/sudoers 
-  Add this line -> Defaults env_keep="DISPLAY" 
-  (Save and Exit)
+     - Add this line -> Defaults env_keep="DISPLAY" 
+      (Save and Exit)
  - xhost +si:localuser:root
-    output -> localuser:root being added to access control list 
- now try
+      - output -> localuser:root being added to access control list 
  - sudo gedit (It works)
